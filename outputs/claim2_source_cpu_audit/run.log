@@ -3,12 +3,12 @@
   "verdict": "inconclusive",
   "kind": "cpu_infeasibility_source_audit",
   "source_sha256": "a731ba5fd46583ec282df7c6df76169f96e210602d4c992adc08e0f3f4a191b0",
-  "source_member": "experiments.tex",
-  "required_source_phrases_found": false,
-  "missing_phrases": [
-    "hardware",
-    "sizes"
+  "source_member": [
+    "experiments.tex",
+    "appendix.tex"
   ],
+  "required_source_phrases_found": true,
+  "missing_phrases": [],
   "literal_claim_scope": {
     "models": [
       "GPT-2 Small 124M",

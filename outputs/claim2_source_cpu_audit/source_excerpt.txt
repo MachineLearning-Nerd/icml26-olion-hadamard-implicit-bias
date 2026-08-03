@@ -1,5 +1,5 @@
 [hardware] 4 NVIDIA A100 80GB GPUs
-[sizes] Small (124M parameters)
+[sizes] small} (124M)
 [data] OpenWebText dataset
 [schedule] 20,000 steps
 [claim] converges faster than both AdamW, Lion and Muon.
