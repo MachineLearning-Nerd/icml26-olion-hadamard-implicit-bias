@@ -1,0 +1,33 @@
+{
+  "claim_id": 2,
+  "verdict": "inconclusive",
+  "kind": "cpu_infeasibility_source_audit",
+  "source_sha256": "a731ba5fd46583ec282df7c6df76169f96e210602d4c992adc08e0f3f4a191b0",
+  "source_member": "experiments.tex",
+  "required_source_phrases_found": false,
+  "missing_phrases": [
+    "hardware",
+    "sizes"
+  ],
+  "literal_claim_scope": {
+    "models": [
+      "GPT-2 Small 124M",
+      "Medium 355M",
+      "Large 770M"
+    ],
+    "dataset": "OpenWebText",
+    "tokens": "48B (anchored contract)",
+    "comparators": [
+      "OLion",
+      "AdamW",
+      "Lion",
+      "Muon"
+    ]
+  },
+  "source_compute_requirement": "4 NVIDIA A100 80GB GPUs; DDP; CUDA 11.8+; GPT-2 Small/Medium/Large training",
+  "available_compute": "local CPU/local GTX 1050 only",
+  "decision": "CPU-infeasible: do not run a reduced optimizer toy as evidence for the literal cross-scale GPT-2 convergence claim.",
+  "metric": "validation/training loss trajectories (Figure 3); unavailable without source-scale training/data.",
+  "controls": "No synthetic control is warranted because it cannot test Figure 3 ranking; source audit checks all literal prerequisites.",
+  "conclusion": "No verified/falsified/toy outcome is asserted for Claim 2."
+}
