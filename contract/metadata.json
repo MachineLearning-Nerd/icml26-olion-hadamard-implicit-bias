@@ -1,0 +1,21 @@
+{
+  "i": 21407,
+  "pid": "62586",
+  "orid": "fG4nXq9Ytm",
+  "title": "OLion: Approaching the Hadamard Ideal by Intersecting Spectral and L inf Implicit Biases",
+  "authors": [
+    "Zixiao Wang",
+    "Yifei Shen",
+    "Huishuai Zhang"
+  ],
+  "insts": [],
+  "area": "Deep Learning",
+  "sub": "Algorithms",
+  "type": "Poster",
+  "spot": false,
+  "or": "https://openreview.net/forum?id=fG4nXq9Ytm",
+  "vs": "https://icml.cc/virtual/2026/poster/62586",
+  "arxiv": "2602.01105",
+  "alphaxiv": "2602.01105",
+  "hf": ""
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "text": "OLion computes updates via a 'sign-after-orthogonalization' rule\u2014applying entrywise Sign to the SVD-orthogonalized momentum\u2014to approximate the intersection of spectral and l-infinity constraint sets (Section 4.1, Algorithm 1).",
+    "status": "unverified"
+  },
+  {
+    "text": "On GPT-2 pretraining at Small (124M), Medium (355M), and Large (770M) scales trained on 48B tokens of OpenWebText, OLion converges faster than AdamW, Lion, and Muon at all three sizes (Section 5.1, Figure 3a-c).",
+    "status": "unverified"
+  },
+  {
+    "text": "On Llama-2-7B pretraining with 32B tokens and batch size 4M, OLion maintains consistently lower training loss throughout than Muon, Lion, and AdamW (Section 5.1, Figure 4a-b).",
+    "status": "unverified"
+  },
+  {
+    "text": "Fine-tuning AdamW-pretrained Llama-3.1-8B checkpoints, OLion attains the best downstream accuracy across GSM8K, MATH, NumGLUE, SimulEq, and Aqua, including 60.04% vs. AdamW's 57.99% on GSM8K 0-shot (Table 1).",
+    "status": "unverified"
+  },
+  {
+    "text": "OLion satisfies a Diagonal-Isotropy assumption (Assumption 4.2) and achieves an O(1/\u221aT) convergence rate via a geometry-aware stationarity measure (Theorem 4.4, Section 4.2).",
+    "status": "unverified"
+  },
+  {
+    "text": "OLion simultaneously keeps both spectral norm and l-infinity norm small relative to AdamW (small l-infinity only) and Muon (small spectral norm only), evidencing intersection-of-constraints implicit bias (Figure 2a-d).",
+    "status": "unverified"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "retrieved_at_utc": "2026-08-03T02:30:41.432133+00:00",
+  "openreview_id": "fG4nXq9Ytm",
+  "submission_number": 21407,
+  "title": "OLion: Approaching the Hadamard Ideal by Intersecting Spectral and L inf Implicit Biases",
+  "claim_source": "claims_anchored.json override if present, otherwise claims.json; resolved from eligible snapshot",
+  "claim_count": 6,
+  "maximum_points": 12,
+  "source_urls": {
+    "snapshot": "outputs/live/20260803T023041Z",
+    "arxiv_source": "https://arxiv.org/e-print/2602.01105",
+    "arxiv_pdf": "https://arxiv.org/pdf/2602.01105"
+  },
+  "sha256": {
+    "metadata.json": "a682268d9ee5a3a4a46d0dc5d7afc27e5761eb595ca8c231ec866beed26b522f",
+    "live_claims.json": "1c66c85636121f69d5c73193d5d75b589db8f2a134823b39b892d89d009bc710",
+    "challenge_readme.md": "027f66e6da758c4a0d75fff6c9298e5322dde64d21a97d33e4367e42c3a421c5"
+  }
+}

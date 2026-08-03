@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "openreview_id": "fG4nXq9Ytm",
+  "phase": "claim_1_attempt_1_source_faithful_algorithm_toy_complete",
+  "next_action": "independent_review_claim_1_toy_then_claim_2_source_audit",
+  "active_run_ids": [],
+  "completed_milestones": ["live_duplicate_gate", "live_contract_saved", "source_archive_and_pdf_pinned", "claim_1_source_cpu_feasibility_audit", "claim_1_attempt_1_exact_diagonal_algorithm_fixture"],
+  "failed_attempts": [],
+  "claim_attempt_counts": {"1":1,"2":0,"3":0,"4":0,"5":0,"6":0},
+  "last_checkpoint": "2026-08-03T02:30:41Z",
+  "last_known_git_commit": null,
+  "publication_allowed": false,
+  "compute_policy": "local CPU/local GTX 1050 only; no HF cpu-upgrade, Jobs, paid, or remote compute",
+  "claim_1_outcome": {"verdict":"toy","scope":"Exact diagonal special case of Algorithm 1 only; no trained-model or theorem claim.","evidence":["outputs/claim1_algorithm_toy/results.json","outputs/claim1_algorithm_toy/summary.json","outputs/claim1_algorithm_toy/SHA256SUMS","evidence/source/SHA256SUMS"]}
+}

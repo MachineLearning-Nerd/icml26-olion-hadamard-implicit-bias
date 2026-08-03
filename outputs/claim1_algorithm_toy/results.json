@@ -1,0 +1,41 @@
+{
+  "gradient": [
+    3,
+    -2
+  ],
+  "momentum": [
+    3,
+    -2
+  ],
+  "nesterov_mix": [
+    3,
+    -2
+  ],
+  "polar_q": [
+    1,
+    -1
+  ],
+  "sign_s": [
+    1,
+    -1
+  ],
+  "direction_d": [
+    1,
+    -1
+  ],
+  "x0": [
+    1.0,
+    -1.0
+  ],
+  "x1": [
+    0.9,
+    -0.9
+  ],
+  "parameters": {
+    "beta1": 0,
+    "beta2": 0,
+    "eta": 0.1,
+    "gamma": 1,
+    "lambda": 0
+  }
+}

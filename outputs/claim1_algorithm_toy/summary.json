@@ -1,0 +1,9 @@
+{
+  "verdict": "toy",
+  "scope": "Exact diagonal special-case execution of Algorithm 1 orthogonalize/sign/update chain; not GPT training or Theorem 4.4 verification.",
+  "checks": {
+    "polar_is_orthogonal": true,
+    "sign_after_orthogonalization": true,
+    "expected_update": true
+  }
+}
