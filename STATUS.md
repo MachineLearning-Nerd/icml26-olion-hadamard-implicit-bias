@@ -1,14 +1,25 @@
 # Status
 
-- Paper: OLion, arXiv 2602.01105; challenge record fG4nXq9Ytm, submission 21407.
-- Classification: direct paper match for the ICML 2026 reproduction collection.
-- Contract: six anchored live claims / 12 maximum points, saved under contract/.
-- Sources: arXiv PDF and source archive are hash-pinned in evidence/source/SHA256SUMS.
-- Official code: kv-wang/OLion, audited at commit 017e5defc621db1e122759797b88bbf251aed5ee.
-- Compute policy: local CPU and GTX 1050 only; no HF Jobs, paid, upgraded, or remote compute.
-- Branch policy: main is the only canonical branch; no legacy or ORX branches remain.
-- Claim 1: toy. Exact diagonal special case of Algorithm 1 verifies the orthogonalize/sign/update operation order. It does not verify GPT training, Figure 2, or Theorem 4.4.
-- Claim 2: inconclusive source audit. The literal GPT-2 124M/355M/770M OpenWebText comparison requires the source's four A100 80GB DDP setup. The source's 48B-token/100K-iteration overview and 20,000-step appendix detail are both recorded in README.md.
-- Claims 3–6: unverified; their paper production paths and current evidence boundaries are documented in README.md.
-- Publication: not allowed by the current local challenge state.
-- Next: source-audit Claim 3, then independently review the Claim 2 feasibility boundary.
+- Repository: https://github.com/MachineLearning-Nerd/icml26-olion-hadamard-implicit-bias
+- Former name: icml26-repro-fG4nXq9Ytm-olion-hadamard-implicit-bias
+- Paper: OLion: Approaching the Hadamard Ideal by Intersecting Spectral and l-infinity Implicit Biases
+- Authors: Zixiao Wang, Yifei Shen, and Huishuai Zhang
+- Venue: ICML 2026
+- OpenReview: fG4nXq9Ytm
+- arXiv: 2602.01105
+- Branches: main only; canonical/default branch
+- Commit identity: MachineLearning-Nerd
+- Compute: local CPU/local GTX 1050 only; no remote, paid, Hugging Face, or other external compute
+
+| Claim | Local status |
+| --- | --- |
+| C1 sign after orthogonalization | TOY_SOURCE_ALGORITHM1 |
+| C2 GPT-2 convergence | INCONCLUSIVE_CPU_INFEASIBLE |
+| C3 Llama-2-7B pretraining | UNVERIFIED |
+| C4 Llama-3.1-8B supervised fine-tuning | UNVERIFIED |
+| C5 diagonal-isotropy convergence theorem | UNVERIFIED |
+| C6 simultaneous spectral and l-infinity control | UNVERIFIED |
+
+Overall: INCONCLUSIVE_SCOPED_TO_SOURCE_AND_BOUNDED_TOY. The publication gate is false. The source PDF/archive, exact diagonal Algorithm 1 fixture, and GPT-2 feasibility record are locally pinned; no full-paper reproduction is claimed.
+
+Evidence: CLAIM_EVIDENCE.md, SOURCE_AUDIT.md, EVIDENCE_MANIFEST.json, outputs/claim1_algorithm_toy/, outputs/claim2_source_cpu_audit/, contract/live_claims.json, and verify_final.py.

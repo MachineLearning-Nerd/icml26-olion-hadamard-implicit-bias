@@ -1,4 +1,4 @@
-# OLion: Approaching the Hadamard Ideal by Intersecting Spectral and l-infinity Implicit Biases
+# ICML 2026 — OLion: Approaching the Hadamard Ideal by Intersecting Spectral and l-infinity Implicit Biases
 
 This repository is the MachineLearning-Nerd audit and reproduction workspace for the ICML 2026 reproduction record associated with OLion. It contains pinned primary-source material, a small exact algorithm check, and a documented feasibility boundary for the paper's large-scale experiments. It is not the authors' reference implementation.
 
@@ -10,6 +10,12 @@ Official implementation: [kv-wang/OLion](https://github.com/kv-wang/OLion), audi
 
 ## Current result
 
+Canonical repository: https://github.com/MachineLearning-Nerd/icml26-olion-hadamard-implicit-bias
+
+Former repository name: icml26-repro-fG4nXq9Ytm-olion-hadamard-implicit-bias.
+
+The published audit is maintained by MachineLearning-Nerd; it is not the authors' repository.
+
 | Item | Result |
 | --- | --- |
 | Paper relationship | Direct paper match; ICML 2026 challenge record |
@@ -17,7 +23,7 @@ Official implementation: [kv-wang/OLion](https://github.com/kv-wang/OLion), audi
 | Claim 2 | Inconclusive: source-audited but literal GPT-2 experiment is infeasible on the available machine |
 | Claims 3–6 | Unverified; source scope is recorded below |
 | Local compute | CPU and GTX 1050 only |
-| Publication | Not allowed by the local challenge state |
+| Publication | False; the scoped audit is not a full-paper reproduction |
 | Canonical branch | main only |
 
 The narrow Claim 1 check reproduces the sign-after-orthogonalization update chain for a fixed 2-by-2 diagonal input. It does not reproduce model training, the paper's figures, or the convergence theorem. Claim 2 is not presented as a failed reproduction: the required source-scale run cannot be performed under the repository's local compute policy, and a reduced optimizer toy would not test the anchored GPT-2 ranking.
@@ -34,6 +40,8 @@ OLion combines two update geometries for matrix-shaped parameters:
 The motivating intersection is a scaled partial-Hadamard set: orthonormal columns with entries plus or minus 1/sqrt(d1), when such a matrix exists. The paper treats this as an idealized target; it does not guarantee that every update reaches an exact Hadamard matrix. Its empirical program compares OLion with AdamW, Lion, and Muon on GPT-2 and Llama pretraining, SiT image pretraining, and Llama-3.1 supervised fine-tuning.
 
 ## Repository contents
+
+The audit dossier is split into CLAIM_EVIDENCE.md, SOURCE_AUDIT.md, REPORT.md, ENVIRONMENT.md, BRANCH_AUDIT.md, CITATION.cff, and AUTHOR_THANK_YOU.md. claims.json and AUTONOMOUS_STATE.json provide machine-readable status, while EVIDENCE_MANIFEST.json and verify_final.py provide the final integrity gate.
 
 | Path | Purpose |
 | --- | --- |
@@ -160,6 +168,10 @@ Run the lightweight checks from the repository root:
 The pytest command is an optional convenience check. The evidence verdicts do not depend on a full training run, and the repository intentionally does not launch the paper-scale experiments.
 
 ## Citation
+
+## Repository-native final gate
+
+Run `python3 verify_final.py` from the repository root. A passing result verifies the canonical branch, MachineLearning-Nerd attribution, source/output hashes, archive structure, claim status, and evidence manifest. It does not turn the bounded toy or source audit into a full-paper reproduction.
 
     @misc{wang2026olionapproachinghadamardideal,
       title={OLion: Approaching the Hadamard Ideal by Intersecting Spectral and l-infinity Implicit Biases},

@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-olion-hadamard-implicit-bias",
+  "generated_for": "published scoped audit",
+  "excluded_paths": [
+    "AUTONOMOUS_STATE.json",
+    "EVIDENCE_MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 48,
+      "sha256": "74756503e09b3fc51374117e07de92deeecf33c65cec1ff50e3142b75153ada6"
+    },
+    {
+      "path": "AUTHOR_THANK_YOU.md",
+      "bytes": 488,
+      "sha256": "7296837db932d38c9fddd9b257928e44cc39cfd535c283a5da5ffd6d0c1ffe15"
+    },
+    {
+      "path": "BRANCH_AUDIT.md",
+      "bytes": 722,
+      "sha256": "b37a84c7c1910791e7f2f0c9abae89d3d6d2e55b708f8f3fc81430863fef8089"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 660,
+      "sha256": "dca133ee4c50360d5ab0035b8a99d619c95f42cea3db022894e977f90325693c"
+    },
+    {
+      "path": "CLAIM_EVIDENCE.md",
+      "bytes": 4552,
+      "sha256": "9231b2caa1ece31fdb3c9126f8f79ac0cb34aceaeac0477a852abb9646df5344"
+    },
+    {
+      "path": "ENVIRONMENT.md",
+      "bytes": 725,
+      "sha256": "398bda4f59acd1f3be8acffff8d7f2df8ea6aa0329fc1fbbf3a6171a85c9d879"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12749,
+      "sha256": "e9d11c6410f6112e33c000d861256024de1e13f3f800be18b7a34f35e866860e"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 1290,
+      "sha256": "c6eb82727d06a7e9b3b0b8aa9e1718fc732af52d97f0cd26be85a1a59b729b18"
+    },
+    {
+      "path": "SOURCE_AUDIT.md",
+      "bytes": 1509,
+      "sha256": "a438c959c3cfe8dc188d07e53500540390bf5f508e7b232d7996d8496be34abd"
+    },
+    {
+      "path": "STATUS.md",
+      "bytes": 1374,
+      "sha256": "39188db33638203349b7f85e3dec2054688724182ab5a33024efc7f106ad9c48"
+    },
+    {
+      "path": "branch-audit.md",
+      "bytes": 132,
+      "sha256": "db693764ff061063639527594b96ac8d807c457dde8edaceeeeece88b9ab5ef9"
+    },
+    {
+      "path": "claims.json",
+      "bytes": 1572,
+      "sha256": "df6f3ccd459f9807f031b7fa82119e5d66d4f8d2fffc5123f8ca8bc08eba5a3e"
+    },
+    {
+      "path": "contract/challenge_readme.md",
+      "bytes": 23984,
+      "sha256": "027f66e6da758c4a0d75fff6c9298e5322dde64d21a97d33e4367e42c3a421c5"
+    },
+    {
+      "path": "contract/contract_manifest.json",
+      "bytes": 868,
+      "sha256": "d5486cac087d38551d450e555cee84eb6578fcecfd509b0672f96e605123356c"
+    },
+    {
+      "path": "contract/live_claims.json",
+      "bytes": 1542,
+      "sha256": "1c66c85636121f69d5c73193d5d75b589db8f2a134823b39b892d89d009bc710"
+    },
+    {
+      "path": "contract/metadata.json",
+      "bytes": 514,
+      "sha256": "a682268d9ee5a3a4a46d0dc5d7afc27e5761eb595ca8c231ec866beed26b522f"
+    },
+    {
+      "path": "evidence/source/SHA256SUMS",
+      "bytes": 184,
+      "sha256": "182aae260d889b46eb1fed1073b3a1d524a09bb6dc7cf66da4e834de946b2c62"
+    },
+    {
+      "path": "evidence/source/arxiv-2602.01105-source.tar.gz",
+      "bytes": 1813610,
+      "sha256": "a731ba5fd46583ec282df7c6df76169f96e210602d4c992adc08e0f3f4a191b0"
+    },
+    {
+      "path": "evidence/source/arxiv-2602.01105.pdf",
+      "bytes": 1920615,
+      "sha256": "b5a0a43f3be4f22d6a6bfb947b3daf1f97b741d0d43c9c4f3f70377b241abf56"
+    },
+    {
+      "path": "outputs/claim1_algorithm_toy/README.md",
+      "bytes": 800,
+      "sha256": "c1d907f361585c48b94737f9b24ee4b3db378a2c8a89f4b1ba844e955d4f8e84"
+    },
+    {
+      "path": "outputs/claim1_algorithm_toy/SHA256SUMS",
+      "bytes": 158,
+      "sha256": "0c6f5e2e030c258b8cc583185dc04146c672c7ef4291e64799f6678a0972c5e9"
+    },
+    {
+      "path": "outputs/claim1_algorithm_toy/results.json",
+      "bytes": 386,
+      "sha256": "4b0838e6bc448c825d069f39e4e4c763bb40fad0b191de990a8b206308e736ce"
+    },
+    {
+      "path": "outputs/claim1_algorithm_toy/summary.json",
+      "bytes": 291,
+      "sha256": "d2144f92f9320f7a7268e4c14c423ca19cfd23c741fd84fe30b50213c34ceb13"
+    },
+    {
+      "path": "outputs/claim2_source_cpu_audit/README.md",
+      "bytes": 1013,
+      "sha256": "63a5d7ac392a537eedaddc53dab9d73cf306189e113ddf49a0a1a19b45c1a139"
+    },
+    {
+      "path": "outputs/claim2_source_cpu_audit/SHA256SUMS",
+      "bytes": 237,
+      "sha256": "69f8b51de26e75c91de10a31c8d153eccd5124554689fe2a9bb936d5d364edf5"
+    },
+    {
+      "path": "outputs/claim2_source_cpu_audit/report.json",
+      "bytes": 1220,
+      "sha256": "428ef8e84ea7ccec2a3a445102edaed6b490cd64ba0d2e012bdcf401a0ae16a2"
+    },
+    {
+      "path": "outputs/claim2_source_cpu_audit/run.log",
+      "bytes": 1220,
+      "sha256": "428ef8e84ea7ccec2a3a445102edaed6b490cd64ba0d2e012bdcf401a0ae16a2"
+    },
+    {
+      "path": "outputs/claim2_source_cpu_audit/source_excerpt.txt",
+      "bytes": 165,
+      "sha256": "f3ad87b4cf91096d9ff8a46d5c0e2459825d15020ae77766a12e595cec1e2969"
+    },
+    {
+      "path": "src/claim1_olion_diagonal_toy.py",
+      "bytes": 1529,
+      "sha256": "262dd46a2e702443cd769a42e5a247dc04faf5b221d9e07e207b4706c3233fc4"
+    },
+    {
+      "path": "src/claim2_gpt2_cpu_audit.py",
+      "bytes": 2060,
+      "sha256": "16a718d0d5fbd5cf0d2308b46b68767c8d3525951c655f073b76f9e1f4f4d0ec"
+    },
+    {
+      "path": "tests/test_claim1.py",
+      "bytes": 243,
+      "sha256": "be22697a57fd42d5f1212e2fa3bf3d2013503f2996b4609b428a42b87b409a9d"
+    },
+    {
+      "path": "tests/test_claim2_source_audit.py",
+      "bytes": 428,
+      "sha256": "0d73b596656dc57239274eeab3a7b0aa6a97f16e54b7463e8272a48bec7ccf30"
+    },
+    {
+      "path": "verify_final.py",
+      "bytes": 9596,
+      "sha256": "8f573e0673eae8986be6f0d3f64b6d9504f774153da63e010fcc85a38429abe6"
+    }
+  ]
+}

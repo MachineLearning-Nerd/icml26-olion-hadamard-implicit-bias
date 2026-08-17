@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If this audit is useful, please cite the OLion paper and this audit repository."
+title: "OLion: Approaching the Hadamard Ideal by Intersecting Spectral and l-infinity Implicit Biases — ICML 2026 audit"
+type: software
+version: 1.0.0
+date-released: 2026-08-17
+repository-code: "https://github.com/MachineLearning-Nerd/icml26-olion-hadamard-implicit-bias"
+url: "https://arxiv.org/abs/2602.01105"
+authors:
+  - family-names: Wang
+    given-names: Zixiao
+  - family-names: Shen
+    given-names: Yifei
+  - family-names: Zhang
+    given-names: Huishuai
+identifiers:
+  - type: arxiv
+    value: "2602.01105"
+    description: "OLion paper"

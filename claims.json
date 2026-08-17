@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-olion-hadamard-implicit-bias",
+  "former_repository": "icml26-repro-fG4nXq9Ytm-olion-hadamard-implicit-bias",
+  "paper": {
+    "title": "OLion: Approaching the Hadamard Ideal by Intersecting Spectral and l-infinity Implicit Biases",
+    "authors": [
+      "Zixiao Wang",
+      "Yifei Shen",
+      "Huishuai Zhang"
+    ],
+    "arxiv": "2602.01105",
+    "openreview": "fG4nXq9Ytm",
+    "venue": "ICML 2026"
+  },
+  "overall_verdict": "INCONCLUSIVE_SCOPED_TO_SOURCE_AND_BOUNDED_TOY",
+  "publication_allowed": false,
+  "claims": [
+    {
+      "id": "C1",
+      "status": "TOY_SOURCE_ALGORITHM1",
+      "evidence": ["src/claim1_olion_diagonal_toy.py", "outputs/claim1_algorithm_toy/", "CLAIM_EVIDENCE.md"]
+    },
+    {
+      "id": "C2",
+      "status": "INCONCLUSIVE_CPU_INFEASIBLE",
+      "evidence": ["src/claim2_gpt2_cpu_audit.py", "outputs/claim2_source_cpu_audit/", "CLAIM_EVIDENCE.md"]
+    },
+    {
+      "id": "C3",
+      "status": "UNVERIFIED",
+      "evidence": ["evidence/source/arxiv-2602.01105-source.tar.gz", "CLAIM_EVIDENCE.md"]
+    },
+    {
+      "id": "C4",
+      "status": "UNVERIFIED",
+      "evidence": ["evidence/source/arxiv-2602.01105-source.tar.gz", "CLAIM_EVIDENCE.md"]
+    },
+    {
+      "id": "C5",
+      "status": "UNVERIFIED",
+      "evidence": ["evidence/source/arxiv-2602.01105-source.tar.gz", "CLAIM_EVIDENCE.md"]
+    },
+    {
+      "id": "C6",
+      "status": "UNVERIFIED",
+      "evidence": ["evidence/source/arxiv-2602.01105-source.tar.gz", "CLAIM_EVIDENCE.md"]
+    }
+  ]
+}
